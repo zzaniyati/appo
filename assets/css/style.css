@@ -1,0 +1,253 @@
+:root {
+    --white: #fff;
+    --primary: #233148;
+    --secondary: #6a6d89;
+    --lightblue:#5bc7f3;
+    --h1:45px;
+    --h2:28px;
+    --h3:22px;
+    --p:18px;
+    --small:16px;
+  }
+
+.body{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: var(--p);
+}
+
+.text-blue{
+    color: var(--lightblue);
+}
+
+.bg-dark-blue{
+    background-color: var(--primary);
+}
+
+.hero{
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    position: relative;
+}
+
+.nav-item a{
+    color: var(--white) ;
+    font-size: var(--p);
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+    color: var(--primary);
+}
+
+.hero h1{
+    color: var(--white);
+    font-size: var(--h1);
+    font-weight: 800;
+}
+
+@media (max-width:576px){
+    .hero h1{
+        font-size: var(--h2);
+    }
+}
+
+.hero p{
+    color: var(--white);
+    font-size: var(--p);
+}
+
+@media (max-width:576px){
+    .hero p{
+        font-size: var(--small);
+    }
+}
+
+.download-btn-blue{
+    background-color: var(--lightblue);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.download-btn-blue:hover{
+    background-color: transparent;
+    border: solid 1px var(--lightblue);
+    color: var(--lightblue);
+}
+
+.download-btn{
+    background-color: var(--white);
+    color: var(--primary);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.download-btn:hover{
+    color: var(--white);
+    background-color: transparent;
+    border: 1px solid var(--white);
+}
+
+@media (max-width:576px){
+    .download-btn{
+        padding: 5px 20px;
+    } 
+}
+.contact-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contact-btn:hover{
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+@media (max-width:576px){
+    .contact-btn{
+        padding: 5px 30px;
+    } 
+}
+
+.smart-phone-hero{
+    width: 160px;
+    height: 300px;
+    mix-blend-mode: darken;
+}
+
+@media (max-width:991px){
+    .smart-phone-hero{
+      position: absolute;
+      top: -100px;
+    }
+}
+
+.marketing{
+    background-image: url(../images/marketingBackground.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+    margin-top: -150px;
+
+
+}
+
+@media (max-width:768px){
+    .marketing{
+        background-image: none;
+        margin-top: -50px;
+        height: 1280px;
+    }
+}
+
+@media (max-width:991px){
+    .marketing{
+        background-image: none;
+        margin-top: -100px;
+
+      
+    }
+}
+
+@media (max-width:576px){
+    .marketing{
+        margin-top: -100px;
+        height: 1400px;
+    }
+}
+
+.smart-phone{
+    width: 160px;
+    height: 300px;
+    mix-blend-mode: darken;
+}
+
+.mark-card-1{
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+.mark-card-2{
+    margin-top: -85px;
+}
+
+.subtitle{
+    color: var(--primary);
+    font-size: var(--h3);
+    font-weight: 500;
+}
+
+h2{
+    color: var(--primary);
+    font-size: var(--h2);
+    font-weight: 600;
+}
+
+p{
+    color: var(--secondary);
+    font-size: var(--p);
+}
+
+.marketing2 .card:hover{
+    background-color: var(--lightblue);
+
+}
+
+.marketing2 .card:hover p{
+    display: block;
+    color: var(--white);
+}
+
+.marketing2 .card p{
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.code-img{
+    mix-blend-mode: darken;
+}
+
+.marketing4{
+    background-image: url(../images/marketing-2-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.get-app{
+    color: var(--white);
+    font-size: var(--h3);
+    font-weight: 600;
+    padding: 10px 30px;
+    background-image:linear-gradient(180deg, #ff7c6e, #f5317f);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.get-app:hover{
+    box-shadow: 0px 4px 20px 3px rgba(255, 124, 110, 0.7), 0 14px 25px 3px rgba(245, 49, 127, 0.19);
+}
+
+.form-control{
+    background-color: #f6f7fb !important;
+    border: none !important;
+}
